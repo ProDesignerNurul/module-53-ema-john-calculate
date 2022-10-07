@@ -1,0 +1,46 @@
+/* total review item section  */
+.riview-item{
+    display: flex;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    width: 571px;
+    margin: 21px auto;
+    padding: 8px;
+}
+
+/* under the review item img design  */
+.riview-item img{
+    width: 91px;
+}
+
+/* review item information design  */
+.review-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17px;
+}
+.review-info p{
+    margin: 0%;
+}
+
+/* delate buttin design  */
+.delate-container{
+    display: flex;
+    align-items: center;
+}
+.btn-delate{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(255, 133, 133);
+}
+.btn-delate:hover{
+    background-color: rgb(255, 79, 79);
+    cursor: pointer;
+}
+.delate-icon{
+    font-size: 31px;
+    color: rgb(235, 194, 194);
+}
